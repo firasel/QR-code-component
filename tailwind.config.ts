@@ -1,3 +1,4 @@
+const { fontFamily } = require('tailwindcss/defaultTheme');
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -7,11 +8,40 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      primary: ['var(--font-primary)', ...fontFamily.sans],
+    },
+    fontSize: {
+      base: [
+        '0.9375rem', // 15px
+        {
+          lineHeight: '1',
+        },
+      ],
+      md: [
+        '1.375rem', // 22px
+        {
+          lineHeight: '1',
+        },
+      ],
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#FFFFFF',
+      black: '#000000',
+      navy: {
+        dark: '#1F314F',
+      },
+      gray: {
+        DEFAULT: '#7D889E',
+        light: '#D5E1EF',
+      },
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      container: {
+        center: true,
+        padding: '1rem',
       },
     },
   },

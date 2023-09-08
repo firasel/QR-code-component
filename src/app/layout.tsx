@@ -1,8 +1,7 @@
+import { cn } from '@src/lib/utils';
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { primary } from 'fonts';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cn(primary.variable, 'font-primary text-base')}>
+        {children}
+      </body>
     </html>
   );
 }

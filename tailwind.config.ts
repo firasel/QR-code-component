@@ -2,11 +2,7 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     fontFamily: {
       primary: ['var(--font-primary)', ...fontFamily.sans],
@@ -15,13 +11,13 @@ const config: Config = {
       base: [
         '0.9375rem', // 15px
         {
-          lineHeight: '1',
+          lineHeight: 'normal',
         },
       ],
       md: [
         '1.375rem', // 22px
         {
-          lineHeight: '1',
+          lineHeight: 'normal',
         },
       ],
     },
@@ -38,10 +34,17 @@ const config: Config = {
         light: '#D5E1EF',
       },
     },
+    boxShadow: {
+      1: '0px 25px 25px 0px rgba(0, 0, 0, 0.05)',
+    },
     extend: {
       container: {
         center: true,
         padding: '1rem',
+      },
+      borderRadius: {
+        10: '.625rem',
+        20: '1.25rem',
       },
     },
   },

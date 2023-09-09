@@ -1,28 +1,65 @@
-<h1 style="text-align:center">Frontend Mentor Starter Template with Storybook</h1>
+<br/>
+<h1 align="center">Frontend Mentor Challenge - QR Code Component</h1>
 
-Welcome to the Frontend Mentor (FEM) starter template. This template combines Next.js with Storybook integration.
+Welcome to the 'QR Code Component' project repository. This project is a part of the Frontend Mentor challenges.
 
-## Commit Message Prefixes
+#### Live link: [QR Code Component](https://qrcode-fi.vercel.app)
 
-For smooth version control, consider using these commit message prefixes:
+## Technologies Used
 
-- `feat` – when incorporating new features
-- `fix` – addressing and resolving bugs
-- `chore` – non-feature/fix changes (e.g., dependency updates)
-- `refactor` – code improvements without bug fixes or new features
-- `docs` – updates to project documentation
-- `style` – changes related to code styling and formatting
-- `perf` – optimizations for improved performance
-- `ci` – configurations related to continuous integration
-- `build` – changes affecting the build system or external dependencies
-- `revert` – reverting a previous commit
+- [Next.js](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [clsx](https://www.npmjs.com/package/clsx)
+- [Storybook](https://storybook.js.org)
 
-## Frontend Guidelines
+## How to Get Started
 
-Simplicity is key:
+Follow these steps to get the 'QR Code Component' project up and running locally:
 
-- Write clean, well-documented, and maintainable code.
-- Prioritize responsive and accessible designs.
-- Rigorously test your components to ensure they align with the unique requirements of each FEM challenge.
+1. Clone the repository:
 
-With this FEM starter template and Storybook integration, you're well-prepared to tackle any Frontend Mentor challenge with confidence. Happy coding!
+   ```bash
+   git clone https://github.com/firasel/QR-code-component.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd QR-code-component
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Open your browser and go to http://localhost:3000 to see the website in action.
+
+## License
+
+[MIT License](LICENSE)
+
+## About the Creator
+
+This website is developed by Md Rasel.
+
+Connect with Md Rasel:
+
+- Website: [firasel.com](https://firasel.com) or [terminal.firasel.com](https://terminal.firasel.com)
+- GitHub: [@firasel](https://github.com/firasel) and [@firasel2](https://github.com/firasel2)
+- LinkedIn: [linkedin.firasel.com](http://linkedin.firasel.com)
+- Frontend Mentor - [@firasel](https://www.frontendmentor.io/profile/firasel)
+- Support Md Rasel on Buy Me a Coffee: [firasel](https://buymeacoffee.com/firasel)
+
+<hr/>
+If you find this project interesting or useful, please consider giving it a ⭐ to show your appreciation.
+
+<b>Thank You</b>

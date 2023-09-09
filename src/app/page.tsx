@@ -2,7 +2,7 @@ import { QrCodeCard } from '@src/components/cards/qr-code';
 import { IQrCodeCard } from '@src/components/cards/qr-code/interface';
 import QrCodeImage from '/public/assets/images/image-qr-code.png';
 
-export const qrCodeCardProps: IQrCodeCard = {
+const qrCodeCardProps: IQrCodeCard = {
   image: {
     src: QrCodeImage.src,
     alt: 'Qr code',
